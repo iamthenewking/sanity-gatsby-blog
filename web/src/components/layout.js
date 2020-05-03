@@ -11,7 +11,7 @@ const Layout = ({children, onHideNav, onShowNav, showNav, siteTitle}) => (
     <footer className={styles.footer}>
       <div className={styles.footerWrapper}>
         <div className={styles.siteInfo}>
-          &copy; {new Date().getFullYear()},  
+          &copy; {new Date().getFullYear()},  {siteTitle}
            
         </div>
       </div>
